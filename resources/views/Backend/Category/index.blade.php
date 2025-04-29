@@ -58,6 +58,9 @@
                                 </td>
                             </tr>
                             @empty
+                            <tr>
+                                <td colspan="4" class="text-center text-danger">Sorry! No Category Found!</td>
+                            </tr>
                             @endforelse
 
 
